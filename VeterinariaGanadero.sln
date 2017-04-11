@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{A241B8B8-6D68-4A86-97A8-0584322FE06B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logica del Negocio", "Logica del Negocio", "{CF0FA067-EAE6-4C69-8653-C1310FADC035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acceso a Datos", "Acceso a Datos", "{BDEEFBA1-0915-40B6-8FED-0402C717177C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganadero.Repository", "Ganadero.Respository\Ganadero.Repository.csproj", "{8AB791EB-AEB0-48AE-A8E2-863922741A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganadero.BussinesEntities", "Ganadero.BussinesEntities\Ganadero.BussinesEntities.csproj", "{828AC0C0-7A4B-43CA-B985-EE976F8BA3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganadero.Web", "Ganadero.Web\Ganadero.Web.csproj", "{55E43C98-DBE0-4DCD-8CE8-6519FEB22066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB791EB-AEB0-48AE-A8E2-863922741A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB791EB-AEB0-48AE-A8E2-863922741A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB791EB-AEB0-48AE-A8E2-863922741A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB791EB-AEB0-48AE-A8E2-863922741A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828AC0C0-7A4B-43CA-B985-EE976F8BA3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828AC0C0-7A4B-43CA-B985-EE976F8BA3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828AC0C0-7A4B-43CA-B985-EE976F8BA3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828AC0C0-7A4B-43CA-B985-EE976F8BA3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E43C98-DBE0-4DCD-8CE8-6519FEB22066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E43C98-DBE0-4DCD-8CE8-6519FEB22066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E43C98-DBE0-4DCD-8CE8-6519FEB22066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E43C98-DBE0-4DCD-8CE8-6519FEB22066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AB791EB-AEB0-48AE-A8E2-863922741A90} = {BDEEFBA1-0915-40B6-8FED-0402C717177C}
+		{828AC0C0-7A4B-43CA-B985-EE976F8BA3E3} = {CF0FA067-EAE6-4C69-8653-C1310FADC035}
+		{55E43C98-DBE0-4DCD-8CE8-6519FEB22066} = {A241B8B8-6D68-4A86-97A8-0584322FE06B}
+	EndGlobalSection
+EndGlobal
